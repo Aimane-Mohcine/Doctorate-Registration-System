@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-container">
+  <h2>login</h2>
+  <form action="login.php" method="post">
+    <input type="text" id="apogee" name="apogee" placeholder="Code Apogée" required>
+    <input type="password" id="cin" name="cin" placeholder="CIN" required>
+    <button type="submit">Se connecter</button>
+  </form>
+</div>
+
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const error = urlParams.get('error');
+      if (error) {
+          const errorMessage = document.createElement('div');
+          errorMessage.classList.add('error-message');
+          errorMessage.innerHTML = "Erreur d'authentification : Vos identifiants ne correspondent pas à nos enregistrements. Veuillez vérifier votre numéro d'Apogée et votre numéro de CIN et réessayer.";
+          document.querySelector('.login-container').insertBefore(errorMessage, document.querySelector('.login-container').firstChild);
+          setTimeout(() => { errorMessage.style.display = 'none'; }, 6000);
+      }
+  });
+  </script>
+  
+  
+</body>
+</html>

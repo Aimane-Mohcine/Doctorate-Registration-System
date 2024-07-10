@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+#navbar1 {
+    background-color: #0056b3; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement */
+  
+
+}
+#navbar2 {
+    background-color: green; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement */
+  
+
+}
+
+.navbar-content {
+    text-align: center; /* Centrer le texte dans la navbar */
+    font-size: 1.4em; /* Taille du texte */
+    font-weight: bold; /* Gras */
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+#addAuthorBtn {
+    background-color: #007bff;
+    margin-bottom: 20px;
+}
+
+#addAuthorBtn:hover {
+    background-color: #0069d9;
+}
+#quitBtn {
+    background-color: #dc3545; /* Couleur de fond pour le bouton Quitter */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement */
+    border: none; /* Supprime la bordure */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur au survol */
+    font-size: 1em; /* Taille de la police */
+    margin-right: 10px; /* Marge à droite */
+    margin-left: 73%;
+
+ 
+    
+}
+
+#quitBtn:hover {
+    background-color: #c82333; /* Couleur de fond au survol */
+}

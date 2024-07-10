@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<submissions>
+  <submission>
+    <firstauthor sex="M" ApogeCode="A123" registrationYear="1">
+      <firstname>Aimane</firstname>
+      <lastname>Mohcine</lastname>
+      <birth>2001-05-22</birth>
+    </firstauthor>
+    <title>aa</title>
+    <abstract>aa</abstract>
+    <keywords>aa</keywords>
+    <disciplines>Informatique</disciplines>
+    <speciality>BBB</speciality>
+    <theme>Developpement web et mobile</theme>
+    <institution>A</institution>
+    <structure type="Laboratoire"/>
+    <mail type="institutional">user1@gmail.com</mail>
+    <mail type="autre"/>
+    <phone>0666437578</phone>
+    <address>
+      <ville>Ville 3</ville>
+    </address>
+    <supervisor>
+      <firstname>kamli</firstname>
+      <lastname>samir</lastname>
+      <mail>user1@gmail.com</mail>
+      <institution>user1@gmail.com</institution>
+    </supervisor>
+    <cosupervisor>
+      <firstname>jamali</firstname>
+      <lastname>ahmed</lastname>
+      <mail>user1@gmail.com</mail>
+      <institution>user1@gmail.com</institution>
+    </cosupervisor>
+  </submission>
+  <submission>
+    <firstauthor sex="M" ApogeCode="B123" registrationYear="1">
+      <firstname>aleae</firstname>
+      <lastname>Mohcine</lastname>
+      <birth>2024-04-20</birth>
+    </firstauthor>
+    <title>aa</title>
+    <abstract>aa</abstract>
+    <keywords>aa</keywords>
+    <disciplines>Informatique</disciplines>
+    <speciality>aa</speciality>
+    <theme>Reseaux informatiques et securite</theme>
+    <institution>C</institution>
+    <structure type=""/>
+    <mail type="institutional">user1@gmail.com</mail>
+    <mail type="autre">user1@gmail.com</mail>
+    <phone>0666437578</phone>
+    <address>
+      <ville>Ville 3</ville>
+    </address>
+    <supervisor>
+      <firstname>kamli</firstname>
+      <lastname>samir</lastname>
+      <mail>user1@gmail.com</mail>
+      <institution>user1@gmail.com</institution>
+    </supervisor>
+    <cosupervisor>
+      <firstname>jamali</firstname>
+      <lastname>ahmed</lastname>
+      <mail>user1@gmail.com</mail>
+      <institution>user1@gmail.com</institution>
+    </cosupervisor>
+  </submission>
+  <submission>
+    <firstauthor sex="M" ApogeCode="C123" registrationYear="1">
+      <firstname>kamli</firstname>
+      <lastname>samir</lastname>
+      <birth>2024-04-24</birth>
+    </firstauthor>
+    <title>aa</title>
+    <abstract>aa</abstract>
+    <keywords>aaa</keywords>
+    <disciplines>chimie</disciplines>
+    <speciality>aaa</speciality>
+    <theme>Chimie inorganique avancee </theme>
+    <institution>B</institution>
+    <structure type="group"/>
+    <mail type="institutional">user1@gmail.com</mail>
+    <mail type="autre">user1@gmail.com</mail>
+    <phone>0666437578</phone>
+    <address>
+      <ville>Ville 3</ville>
+    </address>
+    <supervisor>
+      <firstname>kamli</firstname>
+      <lastname>samir</lastname>
+      <mail>user1@gmail.com</mail>
+      <institution>user1@gmail.com</institution>
+    </supervisor>
+    <cosupervisor>
+      <firstname>jamali</firstname>
+      <lastname>ahmed</lastname>
+      <mail>user1@gmail.com</mail>
+      <institution>user1@gmail.com</institution>
+    </cosupervisor>
+  </submission>
+</submissions>
